@@ -1,10 +1,9 @@
+source libs/logo.sh
+
 show_mainMenu() {
     # Efface l'écran et replace le curseur en haut
-    tput clear
-    tput cup 0 0
-    echo "============================="
-    echo "    FRAMEWORK - MAIN MENU    "
-    echo "============================="
+    show_logo
+    echo
     echo "1. Footprint"
     echo "2. Scanning networks"
     echo "3. Enumeration"

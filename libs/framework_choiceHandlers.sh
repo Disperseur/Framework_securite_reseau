@@ -120,7 +120,6 @@ handle_choice_GainingAccessMenu() {
         7)
             java_rmi_exploit
             ;;
-            
         8)
             return -1 # Retourne -1 à l'appelant
             ;;
