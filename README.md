@@ -1,6 +1,7 @@
 # README du framework securite des reseaux informatiques
 ## Manuel d'utilisation
 
+
 ### Exécution du script
 Pour lancer l'outil il suffit d'exécuter la commande\
 ``$ sudo bash ./framework.sh``
@@ -48,3 +49,6 @@ Les commandes sont commentées directement dans le framework. Celles qui sont re
 #### Automatisation
 
 - Script d'automatisation
+
+- Mettre le dossier "Vulnerability database" au même niveau que le fichier script.sh
+

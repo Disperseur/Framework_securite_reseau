@@ -25,6 +25,23 @@ puis hit Esc et Enter
 ## nmap (best)
 ``$nmap -sV -script=banner <ip_addr>``
 
+# Pour obtenir un accès 
+
+## hydra(bruteforce)
+``hydra -L /usernames.txt -P /passwords.txt <ip_app> ftp -V`` (ftp)
+``hydra -L usernames.txt -P passwords.txt <ip_app> ssh -V`` (SSH)
+
+## Netcat 
+
+``nc <ip_app> <port>``
+
+## Metasploit 
+
+``use <exploit>``           -choix de l'exploit à utiliser
+``---``                     -commande particulière à l'exploit utiliser
+``set RHOSTS $TARGET_IP``   -il faut donner l'ip ciblé
+``---``                     -commande particulière à l'exploit utilisé
+``exploit``                 - execution de l'exploit 
 
 
 
