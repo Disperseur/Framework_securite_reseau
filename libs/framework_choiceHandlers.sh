@@ -35,7 +35,7 @@ handle_choice_footprintMenu() {
         3)
             command_hostname
             ;;
-        5)
+        4)
             return -1 # Retourne -1 à l'appelant
             ;;
         *)

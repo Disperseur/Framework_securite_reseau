@@ -26,7 +26,7 @@ show_footprintMenu() {
     echo "2. whois"
     echo "3. hostname"
     echo
-    echo "5. Main menu"
+    echo "4. Main menu"
     echo
     echo "Choose an option then press ENTER."
 }
@@ -63,7 +63,7 @@ show_EnumerationMenu() {
     echo "2. nc"
     echo "3. operating system detection nmap"
     echo "4. banner grabing avec nmap"
-    echo "5. Enumerating user accounts through Nmap"
+    echo "5. Enumerating user accounts through nmap"
     echo
     echo "6. main menu"
     echo
