@@ -45,6 +45,10 @@ Les commandes sont commentées directement dans le framework. Celles qui sont re
 - FTP
 - SSH
 - Netcat
+- Metasploit-vsftpd
+- Metasploit-ssh
+- Metasploit-samba
+- Metasploit-java-rmi
 
 #### Automatisation
 
