@@ -25,7 +25,7 @@ show_footprintMenu() {
     echo "2. whois"
     echo "3. hostname"
     echo
-    echo "5. Main menu"
+    echo "4. Main menu"
     echo
 }
 
@@ -76,10 +76,8 @@ show_GainingAccessMenu() {
     echo "1. FTP"
     echo "2. SSH"
     echo "3. Netcat"
-    echo "4. "
-    echo "5. "
     echo
-    echo "6. main menu"
+    echo "4. main menu"
     echo
 }
 

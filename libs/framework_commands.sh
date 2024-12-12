@@ -36,7 +36,8 @@ command_whois() {
     echo "    FRAMEWORK - Foot print - whois    "
     echo "============================================="
     echo
-    echo "whois:"
+    echo "whois"
+    echo "La commande whois permet de recuperer des informations sur un nom de domaine."
     read -p "Input domain name: " domainName
     echo "Executed command: '$ whois $domainName'"
     echo
@@ -560,6 +561,11 @@ command_Automatisation() {
     echo "====================================="
     echo
     echo "Automatisation:"
+    echo "Le script d'automatisation 'script.sh' permet de réaliser automatiquement l'ensemble des étapes de récupération"
+    echo "de l'adresse ip et du masque de sous-réseau. Le script réalise ensuite scan des machines et des ports ouverts"
+    echo "puis la recherche de vulnérabiliés. Le script utilise une base de données de vulnérabilités qui doit être mise"
+    echo "au même niveau que le script."
+    echo
     echo "Command output: "
     echo -e "${red}$(bash ./libs/script.sh)${white}"
     echo

@@ -1,14 +1,9 @@
 # README du framework securite des reseaux informatiques
-
-## TODO
-- Commenter le WHOIS
-- uniformiser les commentaires de chaque fonction
-
 ## Manuel d'utilisation
 
 ### Exécution du script
 Pour lancer l'outil il suffit d'exécuter la commande\
-``$ bash ./framework.sh``
+``$ sudo bash ./framework.sh``
 
 Le framework fonctionne avec des sous menus. Pour choisir l'option voulue, il suffit de saisir le chiffre dans le terminal.
 
@@ -19,6 +14,8 @@ Le framework fonctionne avec des sous menus. Pour choisir l'option voulue, il su
 Il est possible qu'un problème d'encodage soit présent lors d'une exécution sur WSL (Windows). Pour le régler, il suffit d'utiliser la commande ``$ dos2unix framework.sh``. 
 
 ### Commandes implémentées
+
+Les commandes sont commentées directement dans le framework. Celles qui sont redondantes ne sont commentées qu'une fois et celles qui ne sont pas commentées le sont dans le rapport (Partie Gaining access nottament).
 
 #### Footprint
 
